@@ -68,13 +68,18 @@ v_sq_q69    = v_sq * 512                  # rescale result
 
 ---
 
-## Repository Structure (upstream)
+## Repository Structure
 
 ```
-IZH-ApproxCORD/
-├── hw/   — Verilog/SystemVerilog RTL sources
-├── sw/   — Host-side software / drivers
-└── doc/  — Documentation and figures
+Cordic_AXI/
+├── bd/                 — Block design files
+├── drivers/            — Low-level hardware drivers
+├── example_designs/    — Reference integration examples
+├── hdl/                — Verilog/SystemVerilog RTL sources
+├── src/                — High-level source files
+├── xgui/               — Vivado IP GUI customisation
+├── component.xml       — Vivado IP packager descriptor
+└── LICENSE
 ```
 
 ---
